@@ -1,0 +1,144 @@
+.detailed-report {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .report-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .report-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .btn-icon {
+    margin-right: 5px;
+  }
+  
+  .btn-import {
+    border: 1px solid #ff6384;
+    background-color: white;
+    color: #ff6384;
+  }
+  
+  .btn-export {
+    border: 1px solid #4b93ff;
+    background-color: white;
+    color: #4b93ff;
+  }
+  
+  .report-table {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead th {
+    text-align: left;
+    padding: 12px 15px;
+    color: #888;
+    font-weight: 600;
+    font-size: 12px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  tbody td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .customer-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .customer-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+  
+  .status-badge {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+  }
+  
+  .status-new {
+    background-color: #e6f7ff;
+    color: #4bcaff;
+  }
+  
+  .status-progress {
+    background-color: #fff8e6;
+    color: #ffb74b;
+  }
+  
+  .status-completed {
+    background-color: #e6ffe6;
+    color: #4bff91;
+  }
+  
+  .edit-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .results-count {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .pagination-controls {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .pagination-arrow, .pagination-number {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .pagination-number.active {
+    background-color: #ff6384;
+    color: white;
+    border-color: #ff6384;
+  }
